@@ -1,11 +1,12 @@
+import os
+import dotenv
 import streamlit as st
 
-# Initialize session state variables
-if 'openai_api_key' not in st.session_state:
-	st.session_state.openai_api_key = ""
+dotenv.load_dotenv(".env")
 
-if 'serper_api_key' not in st.session_state:
-	st.session_state.serper_api_key = ""
+# Initialize session state variables from local .env file
+st.session_state.openai_api_key = os.getenv('OPENAI_API_KEY')
+st.session_state.serper_api_key = os.getenv('SERPER_API_KEY')
 
 st.set_page_config(page_title="Home", page_icon="🦜️🔗")
 

@@ -28,3 +28,17 @@ A multi-page Streamlit app showcasing generative AI uses cases with LangChain, O
 
 #### Settings
 * [OpenAI API Key](https://platform.openai.com/account/api-keys) | [Serper API Key](https://serper.dev/api-key)
+
+
+# Setup
+cd to this folder  
+run `python -m venv venv` 
+run `source venv/bin/activate`  
+run `python -m pip install --upgrade pip`  
+run `pip install -r requirements.txt`  
+run `rm .env`   
+run `echo "OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>" >> .env`  
+run `echo "SERPER_API_KEY=<YOUR_SERPER_API_KEY>" >> .env`  
+run `streamlist run Home.py`  
+enter `ctrl-c` to quit  
+
