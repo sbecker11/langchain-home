@@ -1,4 +1,19 @@
-# langchain-examples
+ 
+<div style="display: flex; align-items: center;">
+  <div style="position: relative; display: inline-block;">
+    <div style="width: 50px; height: 50px; border-radius: 50%; border: 1px solid white; overflow: hidden;">
+      <img src="https://avatars.githubusercontent.com/u/95212748?v=4" alt="Avatar" style="display: block; width: 100%; height: auto;">
+    </div>
+  </div>
+  <div style="margin-left: 10px;">
+  Credits go to 
+      <a href="https://github.com/alphasecio" target="_blank">alphasec</a> 
+  </div>
+</div>
+
+# langchain-examples  
+
+
 <h4 align="center">
   <a href="https://github.com/alphasecio/langchain-examples/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Released under the MIT license." />
@@ -17,7 +32,8 @@
   </a>
 </h4>
 
-This repository contains a collection of apps powered by LangChain. 
+This repository contains a collection of apps powered by LangChain.  
+<a href="https://github.com/alphasecio/langchain-examples.git">https://github.com/alphasecio/langchain-examples.git</a>   
 
 [LangChain](https://langchain.readthedocs.io/en/latest) is an open-source framework created to aid the development of applications leveraging the power of large language models (LLMs). It can be used for chatbots, text summarisation, data generation, code understanding, question answering, evaluation, and more.
 
