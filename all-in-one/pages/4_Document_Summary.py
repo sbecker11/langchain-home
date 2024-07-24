@@ -1,10 +1,11 @@
 import os, tempfile
 import streamlit as st
-from langchain.llms.openai import OpenAI
-from langchain.vectorstores.chroma import Chroma
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.chains.summarize import load_summarize_chain
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.llms.openai import OpenAI
+from langchain_community.vectorstores.chroma import Chroma
+from langchain_community.embeddings.openai import OpenAIEmbeddings
+from langchain_community.chains.summarize import load_summarize_chain
+
+from langchain_community.document_loaders import PyPDFLoader
 
 # Set API keys from session state
 openai_api_key = st.session_state.openai_api_key
@@ -23,7 +24,7 @@ if st.button("Summarize"):
     else:
         try:
             with st.spinner('Please wait...'):
-              # Save uploaded file temporarily to disk, load and split the file into pages, delete temp file
+              #z Save uploaded file temporarily to disk, load and split the file into pages, delete temp file
               with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
                   tmp_file.write(source_doc.read())
               loader = PyPDFLoader(tmp_file.name)

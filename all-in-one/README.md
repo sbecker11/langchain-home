@@ -39,6 +39,7 @@ run `pip install -r requirements.txt`
 run `rm .env`   
 run `echo "OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>" >> .env`  
 run `echo "SERPER_API_KEY=<YOUR_SERPER_API_KEY>" >> .env`  
-run `streamlist run Home.py`  
+run `streamlit run Home.py`  
 enter `ctrl-c` to quit  
+
 

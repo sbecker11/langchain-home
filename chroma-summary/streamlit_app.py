@@ -1,10 +1,10 @@
 import os, tempfile
 import streamlit as st
-from langchain.llms.openai import OpenAI
-from langchain.vectorstores.chroma import Chroma
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.chains.summarize import load_summarize_chain
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.llms.openai import OpenAI
+from langchain_community.vectorstores.chroma import Chroma
+from langchain_community.embeddings.openai import OpenAIEmbeddings
+from langchain_community.chains.summarize import load_summarize_chain
+from langchain_community.document_loaders import PyPDFLoader
 
 # Streamlit app
 st.subheader('Summarize Document')

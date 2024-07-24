@@ -1,8 +1,8 @@
 import os, streamlit as st
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.docstore.document import Document
-from langchain.llms.openai import OpenAI
-from langchain.chains.summarize import load_summarize_chain
+from langchain_community.text_splitter import CharacterTextSplitter
+from langchain_community.docstore.document import Document
+from langchain_community.llms.openai import OpenAI
+from langchain_community.chains.summarize import load_summarize_chain
 
 # Streamlit app
 st.subheader('Summarize Text')

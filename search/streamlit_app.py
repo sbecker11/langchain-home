@@ -1,6 +1,6 @@
 import streamlit as st
-from langchain.llms.openai import OpenAI
-from langchain.agents import load_tools, initialize_agent
+from langchain_community.llms.openai import OpenAI
+from langchain_community.agents import load_tools, initialize_agent
 
 # Streamlit app
 st.subheader('LangChain Search')

@@ -1,5 +1,5 @@
 import openai, streamlit as st
-from langchain.llms.openai import OpenAI
+from langchain_community.llms.openai import OpenAI
 
 openai.api_base = "https://oai.hconeai.com/v1"
 

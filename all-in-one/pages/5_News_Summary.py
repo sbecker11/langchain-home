@@ -1,9 +1,9 @@
 import streamlit as st, tiktoken
-from langchain.chat_models import ChatOpenAI
-from langchain.utilities import GoogleSerperAPIWrapper
-from langchain.document_loaders import UnstructuredURLLoader
-from langchain.chains.summarize import load_summarize_chain
-from langchain.prompts import PromptTemplate
+from langchain_community.chat_models import ChatOpenAI
+from langchain_community.utilities import GoogleSerperAPIWrapper
+from langchain_community.document_loaders import UnstructuredURLLoader
+from langchain_community.chains.summarize import load_summarize_chain
+from langchain_community.prompts import PromptTemplate
 
 # Set API keys from session state
 openai_api_key = st.session_state.openai_api_key
